@@ -1,7 +1,8 @@
 import { Box, Button, TextField } from "@mui/material";
 import { transformDate } from "../utils/transform-date";
-import { updateTask } from "../services/tasks.service";
 import TaskStatusForm from "./TaskStatusForm";
+import { useContext } from "react";
+import { TasksContext } from "../contexts/TasksContext";
 
 export default function EditForm({
   id,
@@ -12,6 +13,8 @@ export default function EditForm({
   notes,
   handleClose,
 }) {
+  const { handleUpdate } = useContext(TasksContext);
+
   function handleForm(event) {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
@@ -25,18 +28,22 @@ export default function EditForm({
       .map((note) => formValues[note])
       .filter((note) => note !== "");
 
-    updateTask(id, { title, description, endDate, currentState, notes });
+    handleUpdate({
+      id,
+      task: { title, description, endDate, currentState, notes },
+    });
     handleClose();
   }
 
   return (
-    <form
+    <Box
+      component="form"
       onSubmit={handleForm}
-      style={{
+      sx={{
         display: "flex",
         flexDirection: "column",
         gap: "16px",
-        width: "500px",
+        width: "100%",
       }}
     >
       <TextField
@@ -83,7 +90,9 @@ export default function EditForm({
         />
       </Box>
       <Button type="submit">Actualizar tarea</Button>
-      <Button type="button">Cancelar</Button>
-    </form>
+      <Button type="button" onClick={handleClose}>
+        Cancelar
+      </Button>
+    </Box>
   );
 }
