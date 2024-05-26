@@ -1,7 +1,7 @@
+import React from "react";
 import { Box, Chip, IconButton, Tooltip, Typography } from "@mui/material";
 import CheckBoxOutlineBlankSharpIcon from "@mui/icons-material/CheckBoxOutlineBlankSharp";
 import CheckBoxSharpIcon from "@mui/icons-material/CheckBoxSharp";
-import { updateTask } from "../services/tasks.service";
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { ROUTES } from "../constants/routes";
@@ -25,6 +25,7 @@ export default function TaskPreview({ id, title, currentState }) {
 
   return (
     <Box
+      role="listitem"
       component="article"
       sx={{
         display: "flex",
@@ -69,7 +70,7 @@ export default function TaskPreview({ id, title, currentState }) {
       </Link>
       {currentState === "terminada" ? null : (
         <Tooltip title="Completar tarea">
-          <IconButton onClick={completeTask}>
+          <IconButton onClick={completeTask} data-testid="completar-tarea">
             {isComplete ? (
               <CheckBoxSharpIcon />
             ) : (
