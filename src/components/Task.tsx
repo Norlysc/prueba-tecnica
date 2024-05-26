@@ -1,3 +1,4 @@
+import { IconButton } from "@mui/material";
 import { deleteTask, updateTask } from "../services/tasks.service";
 
 interface Props {
@@ -39,7 +40,9 @@ export default function Task({
         ))}
       </ul>
       <button>editar</button>
-      <button onClick={handleDelete}>eliminar</button>
+      <IconButton onClick={handleDelete}>
+        <DeleteIcon />
+      </IconButton>
       {currentState ? null : (
         <button onClick={handleComplete}>completar</button>
       )}
