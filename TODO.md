@@ -36,7 +36,7 @@ Crea un componente de Formulario de Tarea para gestionar estados de tarea.
 🌻Tarea 5: Enrutamiento ✅
 Implementa enrutamiento utilizando React Router. Crea rutas para mostrar la lista de tareas, detalles de la tarea y agregar una nueva tarea.
 
-🌻Tarea 6: Acceso a Datos
+🌻Tarea 6: Acceso a Datos ✅
 Implementa gestión de estado en un contexto. Asegúrate de que el estado se gestione eficientemente y que los componentes se actualicen adecuadamente cuando llames a tus servicios para acceder a los datos simulados del archivo db.json.
 
 🌻Tarea 7: Pruebas
@@ -48,5 +48,5 @@ Selecciona una API publica (puedes buscar en https://publicapis.dev/) y crea un 
 🌻Tarea 9: Optimización del Rendimiento ✅
 Implementa una estrategia de optimización del rendimiento (por ejemplo, carga perezosa, memorización) para mejorar el rendimiento de la aplicación.
 
-🌻Tarea 10: Diseño Responsivo
+🌻Tarea 10: Diseño Responsivo ✅
 Asegúrate de que la aplicación sea receptiva y funcione bien en diferentes tamaños de pantalla. Implementa consultas multimedia u otras técnicas de diseño responsivo.
