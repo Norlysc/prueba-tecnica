@@ -1,78 +1,11 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "title": "aprender React",
-      "description": "revisar documentacion pagina oficial",
-      "endDate": 1716665120909,
-      "currentState": "terminada",
-      "notes": [
-        "UseState",
-        "Components",
-        "Props"
-      ]
-    },
-    {
-      "id": "2",
-      "title": "aprender Java",
-      "description": "revisar project Intellij",
-      "endDate": 1716665019407,
-      "currentState": "terminada",
-      "notes": [
-        "Metodos",
-        "Clases"
-      ]
-    },
-    {
-      "id": "1f66",
-      "title": "Aprender Nodejs",
-      "description": "Leer la documentación oficial de Nodejs",
-      "endDate": 1644192000000,
-      "currentState": "pendiente",
-      "nota1": "Aprender TS",
-      "nota2": "NOTA2",
-      "nota3": "",
-      "notes": [
-        "Aprender NodeJS",
-        "Leer la documentacion de nodejs"
-      ]
-    },
-    {
-      "id": "5c5c",
-      "title": "Aprender Swift",
-      "description": "Leer la documentación de Swift",
-      "endDate": 1367712000000,
-      "currentState": "pendiente",
-      "notes": [
-        "Leer la documentación de Swift"
-      ]
-    },
-    {
-      "id": "5c5f",
-      "title": "Aprender Swift",
-      "description": "Leer la documentación de Swift",
-      "endDate": 1367712000000,
-      "currentState": "pendiente",
-      "notes": [
-        "Leer la documentación de Swift"
-      ]
-    },
-    {
       "id": "5c5t",
       "title": "Aprender Swift",
       "description": "Leer la documentación de Swift",
-      "endDate": 1367712000000,
-      "currentState": "pendiente",
-      "notes": [
-        "Leer la documentación de Swift"
-      ]
-    },
-    {
-      "id": "5c5u",
-      "title": "Aprender Swift",
-      "description": "Leer la documentación de Swift",
-      "endDate": 1367712000000,
-      "currentState": "pendiente",
+      "endDate": 1367539200000,
+      "currentState": "en progreso",
       "notes": [
         "Leer la documentación de Swift"
       ]
@@ -82,17 +15,7 @@
       "title": "Aprender Swift",
       "description": "Leer la documentación de Swift",
       "endDate": 1367712000000,
-      "currentState": "pendiente",
-      "notes": [
-        "Leer la documentación de Swift"
-      ]
-    },
-    {
-      "id": "5c5l",
-      "title": "Aprender Swift",
-      "description": "Leer la documentación de Swift",
-      "endDate": 1367712000000,
-      "currentState": "pendiente",
+      "currentState": "terminada",
       "notes": [
         "Leer la documentación de Swift"
       ]
@@ -102,10 +25,62 @@
       "title": "Aprender Kotlin",
       "description": "Leer la documentación de Kotlin",
       "endDate": 1367625600000,
-      "currentState": "pendiente",
+      "currentState": "terminada",
       "notes": [
         "Leer la documentación de Kotlin",
         "Seguir a un influencer de _Kotlin"
+      ]
+    },
+    {
+      "id": "6b41",
+      "title": "Aprender responsive design",
+      "description": "Leer la documentación de google sobre responsive design",
+      "endDate": 1716595200000,
+      "currentState": "pendiente",
+      "notes": [
+        "Nota 1",
+        "Nota 2"
+      ]
+    },
+    {
+      "id": "d8af",
+      "title": "Aprender Figma",
+      "description": "Aprender Figma ",
+      "endDate": 1716940800000,
+      "currentState": "en progreso",
+      "notes": [
+        "Leer la documentación"
+      ]
+    },
+    {
+      "id": "13d8",
+      "title": "Nueva",
+      "description": "asd",
+      "endDate": 1715040000000,
+      "currentState": "terminada",
+      "notes": [
+        "Leer la documentación"
+      ]
+    },
+    {
+      "id": "fadf",
+      "title": "Nueva tarea",
+      "description": "Nueva tarea",
+      "endDate": 1716940800000,
+      "currentState": "terminada",
+      "notes": [
+        "Leer la documentación"
+      ]
+    },
+    {
+      "id": "51c8",
+      "title": "Aprender nestjs",
+      "description": "Leer la documentación",
+      "endDate": 1717027200000,
+      "currentState": "pendiente",
+      "notes": [
+        "Ver un video de nest",
+        "Hacer el ejemplo de la página de nest"
       ]
     }
   ]
