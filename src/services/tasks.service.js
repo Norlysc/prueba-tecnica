@@ -16,8 +16,13 @@ export async function getTasks({ page = 1, limit = 5 }) {
   );
 
   const body = await response.json();
-  console.log({ response, body });
   return body;
+}
+
+export async function getTaskById({ id }) {
+  const response = await fetch(`http://localhost:3000/tasks/${id}`);
+  const task = await response.json();
+  return task;
 }
 
 export async function updateTask(identifier, task) {
