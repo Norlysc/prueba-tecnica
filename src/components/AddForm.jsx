@@ -7,9 +7,11 @@ import {
   Select,
   TextField,
 } from "@mui/material";
-import { createTask } from "../services/tasks.service";
+import { TasksContext } from "../contexts/TasksContext";
+import { useContext } from "react";
 
 export default function AddForm() {
+  const { handleCreate } = useContext(TasksContext);
   function handleForm(event) {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
@@ -23,17 +25,23 @@ export default function AddForm() {
       .map((note) => formValues[note])
       .filter((note) => note !== "");
 
-    createTask({ title, description, endDate, currentState, notes });
+    handleCreate({ title, description, endDate, currentState, notes });
+    event.currentTarget.reset();
   }
 
   return (
-    <form
+    <Box
+      component="form"
       onSubmit={handleForm}
-      style={{
+      sx={{
+        margin: "auto",
         display: "flex",
         flexDirection: "column",
         gap: "16px",
-        width: "500px",
+        width: {
+          xs: "350px",
+          md: "500px",
+        },
       }}
     >
       <TextField type="text" name="title" placeholder="Título" required />
@@ -59,6 +67,6 @@ export default function AddForm() {
         <TextField type="text" name="nota3" placeholder="Nota" />
       </Box>
       <Button type="submit">Crear tarea</Button>
-    </form>
+    </Box>
   );
 }
