@@ -1,20 +1,38 @@
 {
   "tasks": [
     {
-      "id": 1,
+      "id": "1",
       "title": "aprender React",
       "description": "revisar documentacion pagina oficial",
       "endDate": 1716665120909,
-      "currentState": false,
-      "notes": ["UseState", "Components", "Props"]
+      "currentState": true,
+      "notes": [
+        "UseState",
+        "Components",
+        "Props"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "aprender Java",
       "description": "revisar project Intellij",
       "endDate": 1716665019407,
-      "currentState": false,
-      "notes": ["Metodos", "Clases"]
+      "currentState": true,
+      "notes": [
+        "Metodos",
+        "Clases"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "aprender Css",
+      "description": "revisar librerias para el proyecto",
+      "endDate": 1716666250917,
+      "currentState": true,
+      "notes": [
+        "Instalacion",
+        "Implementacion"
+      ]
     }
   ]
 }
