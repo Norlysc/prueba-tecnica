@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import AddForm from "../components/AddForm";
 
 export default function NewTask() {
@@ -14,8 +14,23 @@ export default function NewTask() {
         margin: "auto",
       }}
     >
-      <h1>Crear una nueva tarea</h1>
-      <AddForm />
+      <Box component="section" sx={{ py: "3rem" }}>
+        <Typography
+          variant="h1"
+          sx={{
+            textAlign: "center",
+            fontSize: {
+              xs: "2rem",
+              sm: "3rem",
+              md: "3.5rem",
+            },
+            my: "1rem",
+          }}
+        >
+          Crear una nueva tarea
+        </Typography>
+        <AddForm />
+      </Box>
     </Container>
   );
 }
