@@ -7,6 +7,7 @@ import Spinner from "./components/Spinner";
 
 const Details = lazy(() => import("./pages/Details"));
 const NewTask = lazy(() => import("./pages/NewTask"));
+const HarryPotterBooks = lazy(() => import("./pages/HarryPotterBooks"));
 
 export default function Router() {
   return (
@@ -17,6 +18,7 @@ export default function Router() {
           <Route path={ROUTES.home} element={<Tasks />} />
           <Route path={`${ROUTES.details}/:id`} element={<Details />} />
           <Route path={ROUTES.new_task} element={<NewTask />} />
+          <Route path={"/harry-potter-books"} element={<HarryPotterBooks />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
