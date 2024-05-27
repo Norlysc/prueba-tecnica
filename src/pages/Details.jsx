@@ -4,6 +4,8 @@ import { Container } from "@mui/material";
 import { TasksContext } from "../contexts/TasksContext";
 import { useParams } from "react-router-dom";
 import Spinner from "../components/Spinner";
+import { ROUTES } from "../constants/routes";
+import LinkButton from "../components/LinkButton";
 
 export default function Details() {
   const { id } = useParams();
@@ -25,6 +27,7 @@ export default function Details() {
         margin: "auto",
       }}
     >
+      <LinkButton path={ROUTES.home} text={"Regresar"} />
       {isLoading || !task ? <Spinner /> : <Task {...task} />}
     </Container>
   );

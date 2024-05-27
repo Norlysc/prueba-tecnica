@@ -1,5 +1,7 @@
 import { Box, Container, Typography } from "@mui/material";
 import AddForm from "../components/AddForm";
+import { ROUTES } from "../constants/routes";
+import LinkButton from "../components/LinkButton";
 
 export default function NewTask() {
   return (
@@ -14,6 +16,7 @@ export default function NewTask() {
         margin: "auto",
       }}
     >
+      <LinkButton path={ROUTES.home} text={"Regresar"} />
       <Box component="section" sx={{ py: "3rem" }}>
         <Typography
           variant="h1"

@@ -1,5 +1,7 @@
 import { Container, Typography } from "@mui/material";
 import List from "../components/List";
+import { ROUTES } from "../constants/routes";
+import LinkButton from "../components/LinkButton";
 
 export default function Tasks() {
   return (
@@ -18,6 +20,7 @@ export default function Tasks() {
       >
         To Do App
       </Typography>
+      <LinkButton path={ROUTES.new_task} text={"Nueva tarea"} />
       <List />
     </Container>
   );
