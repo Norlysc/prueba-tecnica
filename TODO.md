@@ -39,7 +39,7 @@ Implementa enrutamiento utilizando React Router. Crea rutas para mostrar la list
 🌻Tarea 6: Acceso a Datos ✅
 Implementa gestión de estado en un contexto. Asegúrate de que el estado se gestione eficientemente y que los componentes se actualicen adecuadamente cuando llames a tus servicios para acceder a los datos simulados del archivo db.json.
 
-🌻Tarea 7: Pruebas
+🌻Tarea 7: Pruebas ✅
 Escribir pruebas unitarias para al menos un componente (por ejemplo, Lista de Tareas, Formulario de Tareas). Utiliza Jest o Enzyme.
 
 🌻Tarea 8: Manejo de Errores en una consulta
