@@ -6,9 +6,7 @@
       "description": "Leer la documentación de Swift",
       "endDate": 1367539200000,
       "currentState": "en progreso",
-      "notes": [
-        "Leer la documentación de Swift"
-      ]
+      "notes": ["Leer la documentación de Swift"]
     },
     {
       "id": "5c5p",
@@ -16,9 +14,7 @@
       "description": "Leer la documentación de Swift",
       "endDate": 1367712000000,
       "currentState": "terminada",
-      "notes": [
-        "Leer la documentación de Swift"
-      ]
+      "notes": ["Leer la documentación de Swift"]
     },
     {
       "id": "5c5a",
@@ -35,12 +31,9 @@
       "id": "6b41",
       "title": "Aprender responsive design",
       "description": "Leer la documentación de google sobre responsive design",
-      "endDate": 1716595200000,
-      "currentState": "pendiente",
-      "notes": [
-        "Nota 1",
-        "Nota 2"
-      ]
+      "endDate": 1716508800000,
+      "currentState": "terminada",
+      "notes": ["Nota 1", "Nota 2"]
     },
     {
       "id": "d8af",
@@ -48,9 +41,7 @@
       "description": "Aprender Figma ",
       "endDate": 1716940800000,
       "currentState": "en progreso",
-      "notes": [
-        "Leer la documentación"
-      ]
+      "notes": ["Leer la documentación"]
     },
     {
       "id": "13d8",
@@ -58,19 +49,15 @@
       "description": "asd",
       "endDate": 1715040000000,
       "currentState": "terminada",
-      "notes": [
-        "Leer la documentación"
-      ]
+      "notes": ["Leer la documentación"]
     },
     {
       "id": "fadf",
       "title": "Nueva tarea",
       "description": "Nueva tarea",
-      "endDate": 1716940800000,
-      "currentState": "terminada",
-      "notes": [
-        "Leer la documentación"
-      ]
+      "endDate": 1716854400000,
+      "currentState": "en progreso",
+      "notes": ["Leer la documentación"]
     },
     {
       "id": "51c8",
@@ -78,9 +65,215 @@
       "description": "Leer la documentación",
       "endDate": 1717027200000,
       "currentState": "pendiente",
+      "notes": ["Ver un video de nest", "Hacer el ejemplo de la página de nest"]
+    },
+    {
+      "id": "2g7s",
+      "title": "Aprender Python",
+      "description": "Tomar un curso de Python en línea",
+      "endDate": 1743878400000,
+      "currentState": "en progreso",
       "notes": [
-        "Ver un video de nest",
-        "Hacer el ejemplo de la página de nest"
+        "Investigar sobre los mejores cursos en línea de Python",
+        "Establecer un horario de estudio"
+      ]
+    },
+    {
+      "id": "4f9r",
+      "title": "Desarrollar una aplicación web",
+      "description": "Aprender HTML, CSS y JavaScript",
+      "endDate": 1785318400000,
+      "currentState": "pendiente",
+      "notes": [
+        "Crear un proyecto en GitHub para la aplicación",
+        "Explorar frameworks de frontend como React o Vue.js"
+      ]
+    },
+    {
+      "id": "8h2j",
+      "title": "Dominar SQL",
+      "description": "Practicar consultas SQL complejas",
+      "endDate": 1826758400000,
+      "currentState": "terminada",
+      "notes": [
+        "Utilizar bases de datos de prueba como MySQL o PostgreSQL",
+        "Realizar ejercicios de JOIN y subconsultas"
+      ]
+    },
+    {
+      "id": "1k3t",
+      "title": "Aprender diseño gráfico",
+      "description": "Tomar un curso de Adobe Illustrator",
+      "endDate": 1868198400000,
+      "currentState": "en progreso",
+      "notes": [
+        "Explorar tutoriales en YouTube sobre diseño de logotipos",
+        "Practicar la creación de ilustraciones simples"
+      ]
+    },
+    {
+      "id": "9p5l",
+      "title": "Estudiar machine learning",
+      "description": "Seguir un curso de introducción a machine learning",
+      "endDate": 1909638400000,
+      "currentState": "pendiente",
+      "notes": [
+        "Repasar conceptos de matemáticas como álgebra lineal y cálculo",
+        "Explorar bibliotecas de machine learning como TensorFlow o PyTorch"
+      ]
+    },
+    {
+      "id": "3b8z",
+      "title": "Aprender a tocar la guitarra",
+      "description": "Tomar clases de guitarra acústica",
+      "endDate": 1951078400000,
+      "currentState": "terminada",
+      "notes": [
+        "Practicar escalas y acordes básicos",
+        "Aprender canciones favoritas"
+      ]
+    },
+    {
+      "id": "6m2w",
+      "title": "Mejorar habilidades de escritura",
+      "description": "Escribir un ensayo semanal",
+      "endDate": 1992518400000,
+      "currentState": "en progreso",
+      "notes": [
+        "Leer libros sobre técnicas de escritura",
+        "Solicitar retroalimentación de compañeros"
+      ]
+    },
+    {
+      "id": "5n7x",
+      "title": "Aprender Photoshop",
+      "description": "Seguir tutoriales en línea sobre Photoshop",
+      "endDate": 2033958400000,
+      "currentState": "pendiente",
+      "notes": [
+        "Explorar herramientas de edición de imágenes",
+        "Practicar la manipulación de fotos"
+      ]
+    },
+    {
+      "id": "8k4v",
+      "title": "Estudiar economía",
+      "description": "Leer libros de introducción a la economía",
+      "endDate": 2075398400000,
+      "currentState": "terminada",
+      "notes": [
+        "Investigar sobre teorías económicas clave",
+        "Entender conceptos de oferta y demanda"
+      ]
+    },
+    {
+      "id": "7h9s",
+      "title": "Aprender francés",
+      "description": "Inscribirse en un curso de francés",
+      "endDate": 2116838400000,
+      "currentState": "en progreso",
+      "notes": [
+        "Practicar diariamente con aplicaciones de aprendizaje de idiomas",
+        "Ver películas francesas con subtítulos"
+      ]
+    },
+    {
+      "id": "9j6b",
+      "title": "Desarrollar habilidades de liderazgo",
+      "description": "Tomar un curso de liderazgo en línea",
+      "endDate": 2158278400000,
+      "currentState": "pendiente",
+      "notes": [
+        "Participar en proyectos grupales para mejorar habilidades de liderazgo",
+        "Solicitar retroalimentación de mentores"
+      ]
+    },
+    {
+      "id": "4t8k",
+      "title": "Aprender fotografía",
+      "description": "Explorar los fundamentos de la fotografía",
+      "endDate": 2199718400000,
+      "currentState": "terminada",
+      "notes": [
+        "Practicar con la configuración manual de la cámara",
+        "Explorar diferentes estilos fotográficos"
+      ]
+    },
+    {
+      "id": "2r5m",
+      "title": "Estudiar historia del arte",
+      "description": "Leer libros sobre historia del arte",
+      "endDate": 2241158400000,
+      "currentState": "en progreso",
+      "notes": [
+        "Visitar museos y galerías de arte",
+        "Investigar sobre períodos artísticos específicos"
+      ]
+    },
+    {
+      "id": "5g6j",
+      "title": "Aprender marketing digital",
+      "description": "Tomar un curso en línea de marketing digital",
+      "endDate": 2282598400000,
+      "currentState": "pendiente",
+      "notes": [
+        "Crear un blog para aplicar estrategias de marketing aprendidas",
+        "Explorar técnicas de SEO y SEM"
+      ]
+    },
+    {
+      "id": "1q9p",
+      "title": "Desarrollar habilidades de comunicación",
+      "description": "Practicar hablar en público regularmente",
+      "endDate": 2324038400000,
+      "currentState": "terminada",
+      "notes": [
+        "Participar en debates o clubes de oratoria",
+        "Grabar y revisar presentaciones para mejorar"
+      ]
+    },
+    {
+      "id": "3w6t",
+      "title": "Estudiar desarrollo móvil",
+      "description": "Aprender a desarrollar aplicaciones móviles nativas",
+      "endDate": 2406918400000,
+      "currentState": "pendiente",
+      "notes": [
+        "Explorar el desarrollo para iOS y Android",
+        "Seguir documentación oficial de plataformas de desarrollo móvil"
+      ]
+    },
+    {
+      "id": "8p2r",
+      "title": "Aprender edición de video",
+      "description": "Tomar un curso en línea sobre edición de video",
+      "endDate": 2448358400000,
+      "currentState": "terminada",
+      "notes": [
+        "Practicar con software de edición como Adobe Premiere Pro o Final Cut Pro",
+        "Explorar técnicas de narración visual"
+      ]
+    },
+    {
+      "id": "4k7s",
+      "title": "Estudiar psicología",
+      "description": "Leer libros de psicología cognitiva",
+      "endDate": 2489798400000,
+      "currentState": "en progreso",
+      "notes": [
+        "Investigar sobre teorías de la mente y procesos cognitivos",
+        "Entender la aplicación práctica de la psicología en la vida cotidiana"
+      ]
+    },
+    {
+      "id": "9m8t",
+      "title": "Mejorar habilidades de programación",
+      "description": "Resolver problemas de programación en línea",
+      "endDate": 2531238400000,
+      "currentState": "pendiente",
+      "notes": [
+        "Participar en desafíos de programación en sitios como LeetCode o HackerRank",
+        "Colaborar en proyectos de código abierto"
       ]
     }
   ]
